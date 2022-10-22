@@ -1,0 +1,43 @@
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-left: 104px;
+  padding-right: 104px;
+}
+.hotel {
+  background-color: #eaf0f9;
+  height: max-content;
+}
+.places {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 120px;
+  position: relative;
+}
+.places_items {
+  position: relative;
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .container {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .places_items {
+    padding-left: 8px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .container {
+    padding-left: 20px;
+  }
+}

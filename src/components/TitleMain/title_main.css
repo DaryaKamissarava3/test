@@ -1,0 +1,11 @@
+.block_text {
+  display: flex;
+  flex-direction: row;
+  padding-top: 200px;
+}
+.block_text_items {
+  font-family: Roboto, sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  color: #ffffff;
+}

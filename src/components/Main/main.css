@@ -1,0 +1,18 @@
+header {
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  min-width: 100%;
+  background-size: cover;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.block_text {
+  display: flex;
+  flex-direction: row;
+  padding-top: 200px;
+}

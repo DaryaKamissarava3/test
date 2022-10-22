@@ -1,0 +1,28 @@
+.filter {
+  background-color: #ffffff;
+  position: absolute;
+  width: 260px;
+  height: 158px;
+  margin-left: 750px;
+  margin-top: 12px;
+  border-radius: 8px;
+}
+.filter_wrapper {
+  margin: 22px;
+  display: flex;
+  flex-direction: row;
+}
+.criteria_filter {
+  margin-top: 6px;
+}
+.change_filter {
+  margin-left: 48px;
+}
+.name_filter
+{
+  font-family: Roboto-Regular, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  padding-bottom: 23px;
+}

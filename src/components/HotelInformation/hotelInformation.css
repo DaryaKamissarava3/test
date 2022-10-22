@@ -1,0 +1,15 @@
+.col-8{
+  width: 45%;
+  padding-left: 28%;
+  padding-bottom: 40px;
+}
+.location_search {
+  font-family: Roboto, sans-serif;
+  font-size: 30px;
+  color: #333333;
+  padding-top: 20px;
+}
+.navigate{
+  background-color: #10367C;
+  padding-bottom: 40px;
+}

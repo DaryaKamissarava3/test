@@ -1,0 +1,13 @@
+.application {
+  display: flex;
+  justify-content: center;
+  padding: 120px 0;
+}
+.google_link {
+  margin-right: 14px;
+}
+.app_store,
+.google {
+  width: 135px;
+  height: 40px;
+}

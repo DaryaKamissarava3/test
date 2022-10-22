@@ -1,0 +1,78 @@
+.logo {
+  width: 205px;
+  height: 40px;
+  fill: #3077c6;
+}
+.header_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.links {
+  padding-top: 5px;
+}
+.stays,
+.attractions {
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+  margin-right: 24px;
+  position: relative;
+  transition-property: border-bottom;
+}
+.stays:after {
+  content: '';
+  position: absolute;
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: block;
+}
+.attractions:after {
+  content: '';
+  position: absolute;
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: block;
+}
+.stays:hover {
+  text-decoration: none;
+  border-bottom: 4px solid #f5bd41;
+}
+.attractions:hover {
+  text-decoration: none;
+  border-bottom: 4px solid #f5bd41;
+}
+.header{
+  padding-bottom: 60px;
+}
+.header_icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 24px;
+}
+.night {
+  padding-top: 5px;
+  padding-right: 24px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.account {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.burger_menu {
+  display: none;
+}
+.logoAccount:active * {
+  fill: #F5BD41;
+}

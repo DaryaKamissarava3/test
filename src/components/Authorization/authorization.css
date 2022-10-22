@@ -1,0 +1,55 @@
+.form_authorization {
+  margin: 0 auto;
+  width: 29%;
+  height: 24%;
+  background-color: #ffffff;
+}
+.authorization_title {
+  position: absolute;
+  width: 10%;
+  height: 28px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #000000;
+  padding: 3% 12%;
+}
+.authorization_wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20%;
+}
+.authorization_input {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 40px;
+  padding-left: 10%;
+  padding-bottom: 60px;
+}
+.authorization_label {
+  padding-bottom: 8px;
+  color: #333333;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+}
+.authorization_input_type {
+  bottom: 30px;
+  border-radius: 8px;
+  border-color: #cecece;
+  padding: 12px;
+}
+.authorization_button {
+  background-color: #3077c6;
+  height: 48px;
+  cursor: pointer;
+  padding: 12px 120px;
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  border: none;
+}

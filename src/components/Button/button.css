@@ -1,0 +1,12 @@
+.submit {
+  border: #3077c6;
+  background: #3077c6;
+  color: #ffffff;
+  border-radius: 8px;
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+  height: 64px;
+  margin-top: 45px;
+}
